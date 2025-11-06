@@ -32,11 +32,8 @@ export default function AboutPage() {
   ];
 
   const team = [
-    {
-      name: language === 'en' ? 'Mohammad Rezaei' : 'محمد رضایی',
-      role: language === 'en' ? 'CEO & Founder' : 'مدیرعامل و بنیانگذار',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop',
-    },
+   
+    
     {
       name: language === 'en' ? 'Sara Ahmadi' : 'سارا احمدی',
       role: language === 'en' ? 'Head of Design' : 'رئیس طراحی',
