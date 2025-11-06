@@ -33,6 +33,8 @@ export default function AboutPage() {
 
   const team = [
    
+
+   
     
     {
       name: language === 'en' ? 'Sara Ahmadi' : 'سارا احمدی',
