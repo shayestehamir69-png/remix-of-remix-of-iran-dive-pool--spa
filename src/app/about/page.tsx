@@ -182,10 +182,10 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              {language === 'en' ? 'ّIn Memory Of Hossein Bagheri Shayesteh' : 'به یاد حسین باقری شایسته '}
+              {language === 'en' ? 'ّIn Memory Of ' : 'به یاد   '}
             </h2>
             <p className="text-xl text-blue-400">
-              {language === 'en' ? 'Meet the experts behind IRAN DIVE' : 'با متخصصان ایران دایو آشنا شوید'}
+              {language === 'en' ? 'Hossein Bagheri Shayesteh' : 'حسین باقری شایسته '}
             </p>
           </div>
 
