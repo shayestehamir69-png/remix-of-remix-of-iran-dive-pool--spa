@@ -36,11 +36,7 @@ export default function AboutPage() {
 
    
     
-    {
-      name: language === 'en' ? 'Sara Ahmadi' : 'سارا احمدی',
-      role: language === 'en' ? 'Head of Design' : 'رئیس طراحی',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop',
-    },
+  
     {
       name: language === 'en' ? 'Ali Karimi' : 'علی کریمی',
       role: language === 'en' ? 'Technical Director' : 'مدیر فنی',
