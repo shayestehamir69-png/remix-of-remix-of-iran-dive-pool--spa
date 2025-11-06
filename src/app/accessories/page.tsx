@@ -1,0 +1,259 @@
+"use client";
+
+import React from 'react';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { Wrench, Package, Settings, Zap } from 'lucide-react';
+import { Card } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
+
+export default function AccessoriesPage() {
+  const { language } = useLanguage();
+
+  const categories = [
+    {
+      icon: Settings,
+      title: language === 'en' ? 'Pool Equipment' : 'تجهیزات استخر',
+      description: language === 'en' ? 'Pumps, filters, and cleaning systems' : 'پمپ‌ها، فیلترها و سیستم‌های تمیزکاری',
+    },
+    {
+      icon: Zap,
+      title: language === 'en' ? 'Heating Systems' : 'سیستم‌های گرمایش',
+      description: language === 'en' ? 'Energy-efficient water heaters' : 'آبگرمکن‌های کم‌مصرف',
+    },
+    {
+      icon: Package,
+      title: language === 'en' ? 'Chemicals & Care' : 'مواد شیمیایی و مراقبت',
+      description: language === 'en' ? 'Water treatment and maintenance' : 'تصفیه آب و نگهداری',
+    },
+    {
+      icon: Wrench,
+      title: language === 'en' ? 'Spare Parts' : 'قطعات یدکی',
+      description: language === 'en' ? 'Original replacement components' : 'اجزای جایگزین اصلی',
+    },
+  ];
+
+  const products = [
+    {
+      title: language === 'en' ? 'LED Pool Lights' : 'چراغ‌های LED استخر',
+      description: language === 'en' ? 'RGB color-changing underwater lighting' : 'نورپردازی زیر آب با تغییر رنگ RGB',
+      image: 'https://i5.walmartimages.com/asr/03f04c5f-0bec-4b82-9b0c-ac269794a2d3.a95bb2baf7731b8b1d29757dd98b1fb1.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff',
+      price: language === 'en' ? '$299' : '۲۹۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Automatic Pool Cleaner' : 'تمیزکننده خودکار استخر',
+      description: language === 'en' ? 'Robotic cleaning system for pools' : 'سیستم تمیزکاری روباتیک برای استخرها',
+      image: 'https://tse3.mm.bing.net/th/id/OIP.fbmFpdgP-XyY8TjQvErnDQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3',
+      price: language === 'en' ? '$1,499' : '۱،۴۹۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Water Filter System' : 'سیستم فیلتر آب',
+      description: language === 'en' ? 'Advanced multi-stage filtration' : 'فیلتراسیون پیشرفته چند مرحله‌ای',
+      image: 'https://greenvistaliving.com/cdn/shop/files/WHF3T-FG.png?v=1760262816',
+      price: language === 'en' ? '$899' : '۸۹۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Pool Cover' : 'پوشش استخر',
+      description: language === 'en' ? 'Automatic safety cover with motor' : 'پوشش ایمنی خودکار با موتور',
+      image: 'https://th.bing.com/th/id/R.fb8dbbcce17e4a69deff891541f50c8d?rik=wZOX3VPa72BmsQ&pid=ImgRaw&r=0',
+      price: language === 'en' ? '$2,999' : '۲،۹۹۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Sauna Heater' : 'بخاری سونا',
+      description: language === 'en' ? 'Electric or wood-burning heaters' : 'بخاری برقی یا چوب‌سوز',
+      image: 'https://tse2.mm.bing.net/th/id/OIP.U0qgUv6xAYxbv-ZEkP4QBgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3',
+      price: language === 'en' ? '$1,299' : '۱،۲۹۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Jacuzzi Jets' : 'جت‌های جکوزی',
+      description: language === 'en' ? 'Replacement hydrotherapy jets' : 'جت‌های جایگزین آب‌درمانی',
+      image: 'https://www.greatbayspas.com/wp-content/uploads/2022/11/bg-jet-underwater.jpg',
+      price: language === 'en' ? '$199' : '۱۹۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Control Panel' : 'پانل کنترل',
+      description: language === 'en' ? 'Digital spa control systems' : 'سیستم‌های کنترل دیجیتال اسپا',
+      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop',
+      price: language === 'en' ? '' : '',
+    },
+    {
+      title: language === 'en' ? 'Water Testing Kit' : 'کیت تست آب',
+      description: language === 'en' ? 'Complete water chemistry analyzer' : 'آنالیزگر کامل شیمی آب',
+      image: 'https://tse4.mm.bing.net/th/id/OIP.fR-fknol726zeVg9n43-YgHaFy?rs=1&pid=ImgDetMain&o=7&rm=3',
+      price: language === 'en' ? '' : ' ',
+    },
+  ];
+
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-black via-green-950/20 to-black pt-20">
+      {/* Hero Section */}
+      <section className="relative py-32 overflow-hidden">
+        <div className="absolute inset-0">
+          <div className="absolute top-20 left-20 w-96 h-96 bg-green-500/20 rounded-full blur-3xl animate-float" />
+          <div className="absolute bottom-20 right-20 w-96 h-96 bg-emerald-500/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
+        </div>
+
+        <div className="relative container mx-auto px-4 text-center">
+          <Wrench className="w-20 h-20 text-green-400 mx-auto mb-6 animate-float" />
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+            {language === 'en' ? 'Pool & Spa Accessories' : 'اکسسوری‌های استخر و اسپا'}
+          </h1>
+          <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-emerald-500 mx-auto mb-8" />
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-12">
+            {language === 'en'
+              ? 'Complete your aquatic experience with our extensive range of premium accessories, equipment, and maintenance products.'
+              : 'تجربه آبی خود را با طیف گسترده‌ای از اکسسوری‌ها، تجهیزات و محصولات نگهداری پرمیوم ما کامل کنید.'}
+          </p>
+          <Link href="/contact">
+            <Button size="lg" className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-12 py-6 text-lg">
+              {language === 'en' ? 'Contact Us' : 'تماس با ما'}
+            </Button>
+          </Link>
+        </div>
+      </section>
+
+      {/* Categories */}
+      <section className="relative py-20 bg-black/30 backdrop-blur-sm border-y border-green-500/20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              {language === 'en' ? 'Product Categories' : 'دسته‌بندی محصولات'}
+            </h2>
+            <p className="text-xl text-green-400">
+              {language === 'en' ? 'Everything you need for maintenance' : 'همه چیز برای نگهداری'}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {categories.map((category, index) => {
+              const Icon = category.icon;
+              return (
+                <Card
+                  key={index}
+                  className="bg-gradient-to-br from-green-950/50 to-black border-green-500/30 p-8 text-center hover:scale-105 transition-transform duration-300"
+                >
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 p-4 mx-auto mb-6">
+                    <Icon className="w-full h-full text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-3">{category.title}</h3>
+                  <p className="text-gray-400">{category.description}</p>
+                </Card>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Products Grid */}
+      <section className="relative py-32">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              {language === 'en' ? 'Featured Products' : 'محصولات ویژه'}
+            </h2>
+            <p className="text-xl text-green-400">
+              {language === 'en' ? 'Premium quality accessories' : 'اکسسوری‌های با کیفیت پرمیوم'}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {products.map((product, index) => (
+              <Card
+                key={index}
+                className="group relative overflow-hidden bg-gradient-to-br from-green-950/50 to-black border-green-500/30 hover:scale-105 transition-all duration-300"
+              >
+                <div className="aspect-[3/2] overflow-hidden">
+                  <img
+                    src={product.image}
+                    alt={product.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-white mb-2">{product.title}</h3>
+                  <p className="text-gray-400 text-sm mb-4">{product.description}</p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-2xl font-bold text-green-400">{product.price}</span>
+                    <Button size="sm" variant="outline" className="border-green-500/50 text-green-400 hover:bg-green-500/10">
+                      {language === 'en' ? 'Details' : 'جزئیات'}
+                    </Button>
+                  </div>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Services */}
+      <section className="relative py-20 bg-gradient-to-r from-green-600/20 to-emerald-600/20 backdrop-blur-sm border-y border-green-500/20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-12 text-center">
+              {language === 'en' ? 'Our Services' : 'خدمات ما'}
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="w-20 h-20 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 p-5 mx-auto mb-4">
+                  <Package className="w-full h-full text-white" />
+                </div>
+                <h3 className="text-xl font-bold text-white mb-2">
+                  {language === 'en' ? 'Free Delivery' : 'تحویل رایگان'}
+                </h3>
+                <p className="text-gray-400">
+                  {language === 'en' ? 'On orders over $500' : 'برای سفارش‌های بالای ۵۰۰ دلار'}
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-20 h-20 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 p-5 mx-auto mb-4">
+                  <Settings className="w-full h-full text-white" />
+                </div>
+                <h3 className="text-xl font-bold text-white mb-2">
+                  {language === 'en' ? 'Installation' : 'نصب'}
+                </h3>
+                <p className="text-gray-400">
+                  {language === 'en' ? 'Professional setup service' : 'خدمات نصب حرفه‌ای'}
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-20 h-20 rounded-full bg-gradient-to-r from-green-500 to-emerald-500 p-5 mx-auto mb-4">
+                  <Wrench className="w-full h-full text-white" />
+                </div>
+                <h3 className="text-xl font-bold text-white mb-2">
+                  {language === 'en' ? 'Maintenance' : 'نگهداری'}
+                </h3>
+                <p className="text-gray-400">
+                  {language === 'en' ? 'Regular service plans' : 'برنامه‌های خدمات منظم'}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="relative py-32">
+        <div className="absolute inset-0">
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-green-500/20 rounded-full blur-3xl animate-float" />
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-emerald-500/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '1.5s' }} />
+        </div>
+
+        <div className="relative container mx-auto px-4 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            {language === 'en' ? 'Need Help Finding the Right Product?' : 'به کمک برای یافتن محصول مناسب نیاز دارید؟'}
+          </h2>
+          <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+            {language === 'en'
+              ? 'Our experts are here to help you choose the perfect accessories for your pool, sauna, or jacuzzi.'
+              : 'متخصصان ما اینجا هستند تا به شما در انتخاب اکسسوری‌های مناسب برای استخر، سونا یا جکوزی کمک کنند.'}
+          </p>
+          <Link href="/contact">
+            <Button size="lg" className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-12 py-6 text-lg">
+              {language === 'en' ? 'Contact Expert' : 'تماس با متخصص'}
+            </Button>
+          </Link>
+        </div>
+      </section>
+    </div>
+  );
+}
