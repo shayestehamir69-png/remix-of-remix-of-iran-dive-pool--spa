@@ -48,9 +48,7 @@ export default function AboutPage() {
       image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
     },
     {
-      name: language === 'en' ? 'Nazanin Hosseini' : 'نازنین حسینی',
-      role: language === 'en' ? 'Customer Relations' : 'روابط مشتریان',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop',
+     
     },
   ];
 
