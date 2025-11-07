@@ -123,11 +123,8 @@ export default function AboutPage() {
 From the very beginning, Iran Dive set out with a clear mission: to design and build spaces where water, tranquility, and elegance coexist in perfect harmony.
 
 Over the past four decades, the company has become a leading name in Iran’s aquatic construction industry — specializing in the design and construction of swimming pools, saunas, jacuzzis, water parks, and modern aquatic structures.
-Precision engineering, continuous innovation, and inspiration drawn from the beauty of nature are the core values that flow through every Iran Dive project — from luxurious private pools to large-scale recreational and sports complexes.'در سال ۱۳۵۲، محمدرضا باقری شایسته با نگاهی آینده‌نگر و عشقی عمیق به هنر و مهندسی آب، شرکت ایران دایو را بنیان‌گذاری کرد.
-از همان آغاز، ایران دایو مأموریتی روشن داشت: خلق فضاهایی که آب، آرامش و شکوه را در کنار هم به ارمغان آورند.
-
-این شرکت در طول بیش از چهار دهه فعالیت، با طراحی و اجرای استخرهای شنا، سونا و جکوزی، پارک‌های آبی، و سازه‌های مدرن آبی، به یکی از نام‌های معتبر و پیشرو در صنعت سازه‌های آبی ایران تبدیل شده است.
-ترکیب مهندسی دقیق، نوآوری مداوم و الهام از زیبایی طبیعت، فلسفه‌ای است که در هر پروژه‌ی ایران دایو جریان دارد — از استخرهای لوکس خانگی تا پروژه‌های عظیم ورزشی و تفریحی'}
+Precision engineering, continuous innovation, and inspiration drawn from the beauty of nature are the core values that flow through every Iran Dive project — from luxurious private pools to large-scale recreational and sports complexes.'
+                  : 'محمد رضا باقری شایسته، ایران دایو را با اشتیاق به برتری و چشم‌اندازی برای تحول صنعت لوکس آبی در ایران تاسیس کرد. با بیش از ۱۵ سال تجربه در مهندسی و طراحی، او شرکت را به پیشگامی در ایجاد استخرهای شنا، سونا و جکوزی‌های درجه یک جهانی تبدیل کرده است.'}
               </p>
               <p className="text-gray-300 leading-relaxed mb-4">
                 {language === 'en'
