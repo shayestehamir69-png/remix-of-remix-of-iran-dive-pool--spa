@@ -77,7 +77,7 @@ export default function AboutPage() {
               <p className="text-gray-300 leading-relaxed mb-4">
                 {language === 'en'
                   ? 'Iran Dive Company joined the Water and Wastewater Syndicate in 1973 (registration No. 16964). With a strong engineering team, the company operates as a contractor in the design and construction of aquatic and sports complexes — including public and private swimming pools, water parks, jacuzzis, and dry and steam saunas — as well as in the development of advanced water and wastewater treatment systems. Iran Dive is also active in operation, maintenance, and sales of all related equipment and spare parts, and is fully prepared to undertake any project throughout Iran and abroad. Stainless steel filtration systems and stainless steel heat exchangers are offered with a 10-year warranty.'
-                  : 'ایران دایو در سال ۱۳۸۸ با یک چشم‌انداز ساده تاسیس شد: آوردن لوکس آبی در سطح جهانی به خانه‌ها و مشاغل ایرانی. آنچه به عنوان یک کارگاه کوچک شروع شد به یکی از معتبرترین نام‌ها در صنعت تبدیل شده است.'}
+                  : ' '}
               </p>
               <p className="text-gray-300 leading-relaxed">
                 {language === 'en'
