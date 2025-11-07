@@ -45,8 +45,8 @@ export default function Home() {
   ];
 
   const stats = [
-    { label: t('stats.projects'), value: '1000+' },
-    { label: t('stats.clients'), value: '700+' },
+    { label: t('stats.projects'), value: '1500+' },
+    { label: t('stats.clients'), value: '900+' },
     { label: t('stats.experience'), value: '50+' },
     { label: t('stats.warranty'), value: '10Y' },
   ];
