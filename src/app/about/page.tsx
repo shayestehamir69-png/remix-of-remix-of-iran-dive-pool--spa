@@ -109,7 +109,7 @@ export default function AboutPage() {
                   {language === 'en' ? 'Mohammad Reza Bagheri Shayesteh' : 'محمد رضا باقری شایسته'}
                 </h3>
                 <p className="text-xl text-blue-400">
-                  {language === 'en' ? 'Founder & Visionary' : 'بنیانگذار و چشم‌انداز'}
+                  {language === 'en' ? 'Founder & Visionary' : 'بنیانگذار و موسس'}
                 </p>
               </div>
             </div>
