@@ -1,3 +1,30 @@
+/* Updated: 2025-11-09T14:37:08.011Z */
+/* Updated: 2025-11-09T14:27:02.644Z */
+/* Updated: 2025-11-09T14:13:53.754Z */
+/* Updated: 2025-11-09T14:12:12.749Z */
+/* Updated: 2025-11-09T11:27:56.156Z */
+/* Updated: 2025-11-09T09:52:50.027Z */
+/* Updated: 2025-11-09T07:29:45.622Z */
+/* Updated: 2025-11-08T19:55:16.944Z */
+/* Updated: 2025-11-08T19:39:47.505Z */
+/* Updated: 2025-11-08T19:39:04.128Z */
+/* Updated: 2025-11-08T19:38:12.530Z */
+/* Updated: 2025-11-08T19:36:40.520Z */
+/* Updated: 2025-11-08T07:26:57.118Z */
+/* Updated: 2025-11-08T07:22:12.083Z */
+/* Updated: 2025-11-08T07:18:23.035Z */
+/* Updated: 2025-11-07T15:36:02.059Z */
+/* Updated: 2025-11-07T15:13:51.242Z */
+/* Updated: 2025-11-07T15:10:47.879Z */
+/* Updated: 2025-11-07T13:58:51.469Z */
+/* Updated: 2025-11-07T13:48:57.387Z */
+/* Updated: 2025-11-07T10:09:57.952Z */
+/* Updated: 2025-11-07T08:20:34.351Z */
+/* Updated: 2025-11-07T07:59:59.989Z */
+/* Updated: 2025-11-07T07:28:36.063Z */
+/* Updated: 2025-11-07T07:28:00.572Z */
+/* Updated: 2025-11-06T17:21:04.097Z */
+/* Updated: 2025-11-06T17:17:21.690Z */
 /* Updated: 2025-11-06T12:51:18.883Z */
 /* Updated: 2025-11-06T11:57:18.056Z */
 /* Updated: 2025-11-06T11:53:59.762Z */
@@ -13,7 +40,7 @@
 /* Updated: 2025-11-04T21:01:48.157Z */
 /* Updated: 2025-11-04T20:51:40.408Z */
 /* Updated: 2025-11-04T19:49:22.228Z */
-@import url('https://cdn.jsdelivr.net/gh/rastikerdar/estedad-font@v9.0.0/dist/Estedad-web.css');
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/iranyekan-font@v4.0.0/dist/font-face.css');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -27,7 +54,7 @@
   --color-brand-blue-light: var(--brand-blue-light);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-persian: 'Estedad', sans-serif;
+  --font-persian: 'IRANYekan', sans-serif;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -113,11 +140,11 @@
   [dir="rtl"] {
     direction: rtl;
     text-align: right;
-    font-family: 'Estedad', var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+    font-family: 'IRANYekan', var(--font-geist-sans), system-ui, -apple-system, sans-serif;
   }
   
   [dir="rtl"] * {
-    font-family: 'Estedad', var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+    font-family: 'IRANYekan', var(--font-geist-sans), system-ui, -apple-system, sans-serif;
   }
   
   .water-gradient {
