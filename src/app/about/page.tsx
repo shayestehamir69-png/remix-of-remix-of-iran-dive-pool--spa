@@ -31,21 +31,6 @@ export default function AboutPage() {
     },
   ];
 
-  const team = [
-   
-
-   
-    
-  
-    {
-      name: language === 'en' ? ' ' : ' ',
-      role: language === 'en' ? ' ' : ' ',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop',
-
-     
-    },
-  ];
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-blue-950/30 to-black pt-20">
       {/* Hero Section */}
@@ -119,11 +104,7 @@ export default function AboutPage() {
               </h2>
               <p className="text-gray-300 leading-relaxed mb-4">
                 {language === 'en'
-                  ? 'In 1973, Mohammadreza Bagheri Shayesteh founded Iran Dive Company with a visionary spirit and a deep passion for the art and engineering of water.
-From the very beginning, Iran Dive set out with a clear mission: to design and build spaces where water, tranquility, and elegance coexist in perfect harmony.
-
-Over the past four decades, the company has become a leading name in Iran’s aquatic construction industry — specializing in the design and construction of swimming pools, saunas, jacuzzis, water parks, and modern aquatic structures.
-Precision engineering, continuous innovation, and inspiration drawn from the beauty of nature are the core values that flow through every Iran Dive project — from luxurious private pools to large-scale recreational and sports complexes.'
+                  ? 'In 1973, Mohammadreza Bagheri Shayesteh founded Iran Dive Company with a visionary spirit and a deep passion for the art and engineering of water. From the very beginning, Iran Dive set out with a clear mission: to design and build spaces where water, tranquility, and elegance coexist in perfect harmony. Over the past four decades, the company has become a leading name in Iran\'s aquatic construction industry — specializing in the design and construction of swimming pools, saunas, jacuzzis, water parks, and modern aquatic structures. Precision engineering, continuous innovation, and inspiration drawn from the beauty of nature are the core values that flow through every Iran Dive project — from luxurious private pools to large-scale recreational and sports complexes.'
                   : 'محمد رضا باقری شایسته، ایران دایو را با اشتیاق به برتری و چشم‌اندازی برای تحول صنعت لوکس آبی در ایران تاسیس کرد. با بیش از ۱۵ سال تجربه در مهندسی و طراحی، او شرکت را به پیشگامی در ایجاد استخرهای شنا، سونا و جکوزی‌های درجه یک جهانی تبدیل کرده است.'}
               </p>
               <p className="text-gray-300 leading-relaxed mb-4">
@@ -173,38 +154,57 @@ Precision engineering, continuous innovation, and inspiration drawn from the bea
         </div>
       </section>
 
-      {/* Team */}
+      {/* Memorial Section */}
       <section className="relative py-32">
-        <div className="container mx-auto px-4">
+        <div className="absolute inset-0">
+          <div className="absolute top-20 right-20 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-float" />
+          <div className="absolute bottom-20 left-20 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '1.5s' }} />
+        </div>
+
+        <div className="relative container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              {language === 'en' ? 'In Memory Of ' : 'به یاد   '}
+              {language === 'en' ? 'In Loving Memory' : 'به یاد'}
             </h2>
             <p className="text-xl text-blue-400">
-              {language === 'en' ? 'Hossein Bagheri Shayesteh' : 'حسین باقری شایسته '}
+              {language === 'en' ? 'Mohammad Hosein Bagheri Shayesteh' : 'محمد حسین باقری شایسته'}
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {team.map((member, index) => (
-              <div
-                key={index}
-                className="group relative overflow-hidden rounded-2xl"
-              >
-                <div className="aspect-square overflow-hidden">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
-                <div className="absolute bottom-0 left-0 right-0 p-6 text-center">
-                  <h3 className="text-2xl font-bold text-white mb-2">{member.name}</h3>
-                  <p className="text-blue-400">{member.role}</p>
-                </div>
+          <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+            <div className="relative h-[600px] rounded-2xl overflow-hidden group">
+              <img
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/8e30d056-9c04-4f12-a64d-85f9d189f9b1/generated_images/professional-memorial-portrait-of-a-youn-c5bc18d0-20251109143822.jpg"
+                alt="Mohammad Hosein Bagheri Shayesteh"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-gradient-to-br from-blue-950/50 to-black border border-blue-500/30 rounded-2xl p-8">
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  {language === 'en'
+                    ? 'With heavy hearts, we remember Mohammad Hosein Bagheri Shayesteh, a beloved member of the IRAN DIVE family. His dedication, passion, and innovative spirit left an indelible mark on our company and everyone who had the privilege of working alongside him.'
+                    : 'با قلبی سنگین، محمد حسین باقری شایسته، عضو محبوب خانواده ایران دایو را به یاد می‌آوریم. تعهد، اشتیاق و روحیه نوآورانه او، اثری پاک‌نشدنی بر شرکت ما و همه کسانی که افتخار همکاری با او را داشتند، باقی گذاشت.'}
+                </p>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  {language === 'en'
+                    ? 'His contributions to numerous projects showcased his exceptional talent and unwavering commitment to excellence. Mohammad Hosein brought not only technical expertise but also warmth, kindness, and a genuine care for quality that inspired all of us.'
+                    : 'مشارکت‌های او در پروژه‌های متعدد، استعداد استثنایی و تعهد تزلزل‌ناپذیر او به برتری را به نمایش گذاشت. محمد حسین نه تنها تخصص فنی، بلکه گرما، مهربانی و دلسوزی واقعی برای کیفیت را به ارمغان آورد که همه ما را الهام بخشید.'}
+                </p>
+                <p className="text-gray-300 leading-relaxed mb-4">
+                  {language === 'en'
+                    ? 'Though he is no longer with us, his legacy lives on in every pool we build, every project we complete, and in the values he embodied. His vision and dedication continue to guide our work and remind us of the importance of pursuing excellence with heart.'
+                    : 'اگرچه او دیگر در میان ما نیست، میراث او در هر استخری که می‌سازیم، هر پروژه‌ای که تکمیل می‌کنیم و در ارزش‌هایی که او تجسم می‌کرد، زنده است. چشم‌انداز و تعهد او همچنان کار ما را هدایت می‌کند و اهمیت پیگیری برتری با قلب را به ما یادآوری می‌کند.'}
+                </p>
+                <p className="text-blue-400 text-lg font-semibold italic">
+                  {language === 'en'
+                    ? 'Forever in our hearts, forever part of IRAN DIVE.'
+                    : 'برای همیشه در قلب‌های ما، برای همیشه بخشی از ایران دایو.'}
+                </p>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>
