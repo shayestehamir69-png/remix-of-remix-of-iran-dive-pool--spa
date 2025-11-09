@@ -75,7 +75,7 @@ export default function JacuzziPage() {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1920&h=1080&fit=crop"
+            src="https://tse4.mm.bing.net/th/id/OIP.Cj0wzhsbq7QsazyJyB24vAHaFo?rs=1&pid=ImgDetMain&o=7&rm=3"
             alt="Jacuzzi Background"
             className="w-full h-full object-cover opacity-20"
           />
