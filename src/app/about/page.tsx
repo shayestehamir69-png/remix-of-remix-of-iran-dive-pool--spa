@@ -174,7 +174,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div className="relative h-[600px] rounded-2xl overflow-hidden group">
               <img
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/8e30d056-9c04-4f12-a64d-85f9d189f9b1/generated_images/professional-memorial-portrait-of-a-youn-c5bc18d0-20251109143822.jpg"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/nano-banana-2025-11-08T18-54-38-1762699216219.png?width=8000&height=8000&resize=contain"
                 alt="Mohammad Hosein Bagheri Shayesteh"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
