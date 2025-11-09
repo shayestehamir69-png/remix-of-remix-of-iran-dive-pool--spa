@@ -97,7 +97,7 @@ export default function AccessoriesPage() {
     {
       title: language === 'en' ? 'Powder & Tablet Chlorine' : 'انواع کلر پودری و قرصی',
       description: language === 'en' ? 'Pool chlorine in powder and tablet form' : 'کلر استخر به صورت پودر و قرص',
-      image: 'https://tse4.mm.bing.net/th/id/OIP.fR-fknol726zeVg9n43-YgHaFy?rs=1&pid=ImgDetMain&o=7&rm=3',
+      image: 'https://bsg-i.nbxc.com/product/9f/03/3f/3af906dcf3108d6f523fd780c7.jpg',
       price: language === 'en' ? '$39' : '۳۹ دلار',
     },
     {
