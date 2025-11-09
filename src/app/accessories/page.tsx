@@ -35,6 +35,90 @@ export default function AccessoriesPage() {
 
   const products = [
     {
+      title: language === 'en' ? 'Steel Filtration Filters' : 'انواع فیلتر تصویه استیل',
+      description: language === 'en' ? 'High-grade stainless steel water filters' : 'فیلترهای آب استیل ضدزنگ درجه یک',
+      image: 'https://greenvistaliving.com/cdn/shop/files/WHF3T-FG.png?v=1760262816',
+      price: language === 'en' ? '$899' : '۸۹۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Pool Ladders' : 'انواع نردبان استخری',
+      description: language === 'en' ? 'Stainless steel safety ladders' : 'نردبان‌های ایمنی استیل ضدزنگ',
+      image: 'https://tse4.mm.bing.net/th/id/OIP.RcxJLy38uTSxdvWu0dYIVAHaHa?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$399' : '۳۹۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Pump Strainers' : 'انواع صافی پمپ',
+      description: language === 'en' ? 'Heavy-duty pump basket strainers' : 'صافی‌های سبدی پمپ سنگین',
+      image: 'https://tse1.mm.bing.net/th/id/OIP.9Kw-8gTqC4g3XzYvKJx9BAHaE7?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$129' : '۱۲۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Pool Grills' : 'انواع گریل استخری',
+      description: language === 'en' ? 'Stainless steel pool drain grills' : 'گریل تخلیه استخر از استیل ضدزنگ',
+      image: 'https://tse2.mm.bing.net/th/id/OIP.qXk2bPcpZQVqNWR9E8J7xAHaHa?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$179' : '۱۷۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Pool Skimmers' : 'انواع اسکیمر',
+      description: language === 'en' ? 'Automatic surface cleaning skimmers' : 'اسکیمرهای تمیزکاری سطح خودکار',
+      image: 'https://tse2.mm.bing.net/th/id/OIP.qXk2bPcpZQVqNWR9E8J7xAHaHa?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$449' : '۴۴۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Fountain Nozzles' : 'انواع نازل های فواره',
+      description: language === 'en' ? 'Decorative water fountain nozzles' : 'نازل‌های تزئینی فواره آب',
+      image: 'https://i5.walmartimages.com/asr/03f04c5f-0bec-4b82-9b0c-ac269794a2d3.a95bb2baf7731b8b1d29757dd98b1fb1.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff',
+      price: language === 'en' ? '$249' : '۲۴۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Curtain Fountains' : 'انواع فواره های پرده ای',
+      description: language === 'en' ? 'Water curtain fountain systems' : 'سیستم‌های فواره پرده آب',
+      image: 'https://i5.walmartimages.com/asr/03f04c5f-0bec-4b82-9b0c-ac269794a2d3.a95bb2baf7731b8b1d29757dd98b1fb1.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff',
+      price: language === 'en' ? '$1,299' : '۱،۲۹۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Pool Covers' : 'انواع کاورهای استخری',
+      description: language === 'en' ? 'Automatic safety covers with motor' : 'پوشش‌های ایمنی خودکار با موتور',
+      image: 'https://th.bing.com/th/id/R.fb8dbbcce17e4a69deff891541f50c8d?rik=wZOX3VPa72BmsQ&pid=ImgRaw&r=0',
+      price: language === 'en' ? '$2,999' : '۲،۹۹۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Chlorine Floaters' : 'انواع شناورهای کلر',
+      description: language === 'en' ? 'Automatic chlorine dispensing floaters' : 'شناورهای توزیع خودکار کلر',
+      image: 'https://tse4.mm.bing.net/th/id/OIP.fR-fknol726zeVg9n43-YgHaFy?rs=1&pid=ImgDetMain&o=7&rm=3',
+      price: language === 'en' ? '$49' : '۴۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Analog & Digital Waterproof Thermometers' : 'دماسنج واترپروف آنالوگ و دیجیتال',
+      description: language === 'en' ? 'Digital and analog waterproof thermometers' : 'دماسنج‌های ضدآب دیجیتال و آنالوگ',
+      image: 'https://tse2.mm.bing.net/th/id/OIP.VQqMQjKL8dKr9p7U9N2G6gHaHa?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$79' : '۷۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Powder & Tablet Chlorine' : 'انواع کلر پودری و قرصی',
+      description: language === 'en' ? 'Pool chlorine in powder and tablet form' : 'کلر استخر به صورت پودر و قرص',
+      image: 'https://tse4.mm.bing.net/th/id/OIP.fR-fknol726zeVg9n43-YgHaFy?rs=1&pid=ImgDetMain&o=7&rm=3',
+      price: language === 'en' ? '$39' : '۳۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Water pH Reducers' : 'انواع کاهش دهنده pH آب',
+      description: language === 'en' ? 'Water pH balance reducers' : 'کاهش‌دهنده‌های تعادل pH آب',
+      image: 'https://tse4.mm.bing.net/th/id/OIP.fR-fknol726zeVg9n43-YgHaFy?rs=1&pid=ImgDetMain&o=7&rm=3',
+      price: language === 'en' ? '$29' : '۲۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Water Revival Consumables' : 'انواع مواد مصرفی جهت احیای آب',
+      description: language === 'en' ? 'Consumables for water treatment and revival' : 'مواد مصرفی برای تصفیه و احیای آب',
+      image: 'https://tse4.mm.bing.net/th/id/OIP.fR-fknol726zeVg9n43-YgHaFy?rs=1&pid=ImgDetMain&o=7&rm=3',
+      price: language === 'en' ? '$69' : '۶۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'First Grade Mineral Silica' : 'سیلیس معدنی درجه یک',
+      description: language === 'en' ? 'Premium grade filter silica sand' : 'شن سیلیسی فیلتر درجه پرمیوم',
+      image: 'https://greenvistaliving.com/cdn/shop/files/WHF3T-FG.png?v=1760262816',
+      price: language === 'en' ? '$89' : '۸۹ دلار',
+    },
+    {
       title: language === 'en' ? 'LED Pool Lights' : 'چراغ‌های LED استخر',
       description: language === 'en' ? 'RGB color-changing underwater lighting' : 'نورپردازی زیر آب با تغییر رنگ RGB',
       image: 'https://i5.walmartimages.com/asr/03f04c5f-0bec-4b82-9b0c-ac269794a2d3.a95bb2baf7731b8b1d29757dd98b1fb1.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff',
@@ -45,18 +129,6 @@ export default function AccessoriesPage() {
       description: language === 'en' ? 'Robotic cleaning system for pools' : 'سیستم تمیزکاری روباتیک برای استخرها',
       image: 'https://tse3.mm.bing.net/th/id/OIP.fbmFpdgP-XyY8TjQvErnDQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3',
       price: language === 'en' ? '$1,499' : '۱،۴۹۹ دلار',
-    },
-    {
-      title: language === 'en' ? 'Water Filter System' : 'سیستم فیلتر آب',
-      description: language === 'en' ? 'Advanced multi-stage filtration' : 'فیلتراسیون پیشرفته چند مرحله‌ای',
-      image: 'https://greenvistaliving.com/cdn/shop/files/WHF3T-FG.png?v=1760262816',
-      price: language === 'en' ? '$899' : '۸۹۹ دلار',
-    },
-    {
-      title: language === 'en' ? 'Pool Cover' : 'پوشش استخر',
-      description: language === 'en' ? 'Automatic safety cover with motor' : 'پوشش ایمنی خودکار با موتور',
-      image: 'https://th.bing.com/th/id/R.fb8dbbcce17e4a69deff891541f50c8d?rik=wZOX3VPa72BmsQ&pid=ImgRaw&r=0',
-      price: language === 'en' ? '$2,999' : '۲،۹۹۹ دلار',
     },
     {
       title: language === 'en' ? 'Sauna Heater' : 'بخاری سونا',
@@ -89,28 +161,10 @@ export default function AccessoriesPage() {
       price: language === 'en' ? '$599' : '۵۹۹ دلار',
     },
     {
-      title: language === 'en' ? 'Pool Ladder' : 'نردبان استخر',
-      description: language === 'en' ? 'Stainless steel safety ladder' : 'نردبان ایمنی استیل ضدزنگ',
-      image: 'https://tse4.mm.bing.net/th/id/OIP.RcxJLy38uTSxdvWu0dYIVAHaHa?rs=1&pid=ImgDetMain',
-      price: language === 'en' ? '$399' : '۳۹۹ دلار',
-    },
-    {
-      title: language === 'en' ? 'Pool Thermometer' : 'دماسنج استخر',
-      description: language === 'en' ? 'Digital wireless temperature monitor' : 'مانیتور دمای بی‌سیم دیجیتال',
-      image: 'https://tse2.mm.bing.net/th/id/OIP.VQqMQjKL8dKr9p7U9N2G6gHaHa?rs=1&pid=ImgDetMain',
-      price: language === 'en' ? '$79' : '۷۹ دلار',
-    },
-    {
       title: language === 'en' ? 'Spa Aromatherapy' : 'رایحه‌درمانی اسپا',
       description: language === 'en' ? 'Essential oils and dispensers' : 'روغن‌های ضروری و توزیع‌کننده‌ها',
       image: 'https://tse1.mm.bing.net/th/id/OIP.6yGZGHiFWLvvNT8UjmXwcAHaE8?rs=1&pid=ImgDetMain',
       price: language === 'en' ? '$129' : '۱۲۹ دلار',
-    },
-    {
-      title: language === 'en' ? 'Pool Skimmer' : 'اسکیمر استخر',
-      description: language === 'en' ? 'Automatic surface cleaning system' : 'سیستم تمیزکاری سطح خودکار',
-      image: 'https://tse2.mm.bing.net/th/id/OIP.qXk2bPcpZQVqNWR9E8J7xAHaHa?rs=1&pid=ImgDetMain',
-      price: language === 'en' ? '$449' : '۴۴۹ دلار',
     },
     {
       title: language === 'en' ? 'Sauna Accessories' : 'اکسسوری‌های سونا',
