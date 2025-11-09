@@ -74,13 +74,61 @@ export default function AccessoriesPage() {
       title: language === 'en' ? 'Control Panel' : 'پانل کنترل',
       description: language === 'en' ? 'Digital spa control systems' : 'سیستم‌های کنترل دیجیتال اسپا',
       image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop',
-      price: language === 'en' ? '' : '',
+      price: language === 'en' ? '$749' : '۷۴۹ دلار',
     },
     {
       title: language === 'en' ? 'Water Testing Kit' : 'کیت تست آب',
       description: language === 'en' ? 'Complete water chemistry analyzer' : 'آنالیزگر کامل شیمی آب',
       image: 'https://tse4.mm.bing.net/th/id/OIP.fR-fknol726zeVg9n43-YgHaFy?rs=1&pid=ImgDetMain&o=7&rm=3',
-      price: language === 'en' ? '' : ' ',
+      price: language === 'en' ? '$89' : '۸۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Pool Pump' : 'پمپ استخر',
+      description: language === 'en' ? 'Energy-efficient circulation pump' : 'پمپ گردش انرژی‌کارآمد',
+      image: 'https://tse1.mm.bing.net/th/id/OIP.9Kw-8gTqC4g3XzYvKJx9BAHaE7?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$599' : '۵۹۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Pool Ladder' : 'نردبان استخر',
+      description: language === 'en' ? 'Stainless steel safety ladder' : 'نردبان ایمنی استیل ضدزنگ',
+      image: 'https://tse4.mm.bing.net/th/id/OIP.RcxJLy38uTSxdvWu0dYIVAHaHa?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$399' : '۳۹۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Pool Thermometer' : 'دماسنج استخر',
+      description: language === 'en' ? 'Digital wireless temperature monitor' : 'مانیتور دمای بی‌سیم دیجیتال',
+      image: 'https://tse2.mm.bing.net/th/id/OIP.VQqMQjKL8dKr9p7U9N2G6gHaHa?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$79' : '۷۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Spa Aromatherapy' : 'رایحه‌درمانی اسپا',
+      description: language === 'en' ? 'Essential oils and dispensers' : 'روغن‌های ضروری و توزیع‌کننده‌ها',
+      image: 'https://tse1.mm.bing.net/th/id/OIP.6yGZGHiFWLvvNT8UjmXwcAHaE8?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$129' : '۱۲۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Pool Skimmer' : 'اسکیمر استخر',
+      description: language === 'en' ? 'Automatic surface cleaning system' : 'سیستم تمیزکاری سطح خودکار',
+      image: 'https://tse2.mm.bing.net/th/id/OIP.qXk2bPcpZQVqNWR9E8J7xAHaHa?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$449' : '۴۴۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Sauna Accessories' : 'اکسسوری‌های سونا',
+      description: language === 'en' ? 'Buckets, ladles, and thermometers' : 'سطل‌ها، ملاقه‌ها و دماسنج‌ها',
+      image: 'https://tse2.mm.bing.net/th/id/OIP.h2KkODjCwrCLVQXR8p9CpQHaHa?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$159' : '۱۵۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Pool Vacuum Head' : 'سر جاروبرقی استخر',
+      description: language === 'en' ? 'Heavy-duty cleaning attachment' : 'اتصال تمیزکاری سنگین',
+      image: 'https://tse3.mm.bing.net/th/id/OIP.wXTLc0BM3B5gYn2yqZ5pRAHaHa?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$89' : '۸۹ دلار',
+    },
+    {
+      title: language === 'en' ? 'Spa Headrest' : 'بالشتک سر اسپا',
+      description: language === 'en' ? 'Waterproof comfort pillows' : 'بالشت‌های راحتی ضدآب',
+      image: 'https://tse3.mm.bing.net/th/id/OIP.4jhtMz5r8UNFCnr8H4r8AAHaHa?rs=1&pid=ImgDetMain',
+      price: language === 'en' ? '$49' : '۴۹ دلار',
     },
   ];
 
