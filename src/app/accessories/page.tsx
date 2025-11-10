@@ -175,7 +175,7 @@ export default function AccessoriesPage() {
     {
       title: language === 'en' ? 'Pool Vacuum Head' : 'سر جاروبرقی استخر',
       description: language === 'en' ? 'Heavy-duty cleaning attachment' : 'اتصال تمیزکاری سنگین',
-      image: 'https://tse3.mm.bing.net/th/id/OIP.wXTLc0BM3B5gYn2yqZ5pRAHaHa?rs=1&pid=ImgDetMain',
+      image: 'https://tse4.mm.bing.net/th/id/OIP.NYBznXSDf5eoXDKlZZCREAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3',
       price: language === 'en' ? '$89' : '۸۹ دلار',
     },
     {
