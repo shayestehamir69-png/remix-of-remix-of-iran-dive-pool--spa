@@ -43,7 +43,7 @@ export default function AccessoriesPage() {
     {
       title: language === 'en' ? 'Pool Ladders' : 'انواع نردبان استخری',
       description: language === 'en' ? 'Stainless steel safety ladders' : 'نردبان‌های ایمنی استیل ضدزنگ',
-      image: 'https://tse4.mm.bing.net/th/id/OIP.RcxJLy38uTSxdvWu0dYIVAHaHa?rs=1&pid=ImgDetMain',
+      image: 'https://th.bing.com/th/id/OIP.FvoW55_ETV5OpwxJrEoH6AHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
       price: language === 'en' ? '$399' : '۳۹۹ دلار',
     },
     {
