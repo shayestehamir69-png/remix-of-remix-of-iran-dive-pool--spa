@@ -61,7 +61,7 @@ export default function AccessoriesPage() {
     {
       title: language === 'en' ? 'Pool Skimmers' : 'انواع اسکیمر',
       description: language === 'en' ? 'Automatic surface cleaning skimmers' : 'اسکیمرهای تمیزکاری سطح خودکار',
-      image: 'https://tse2.mm.bing.net/th/id/OIP.qXk2bPcpZQVqNWR9E8J7xAHaHa?rs=1&pid=ImgDetMain',
+      image: 'https://tse4.mm.bing.net/th/id/OIP.6ecL9w3djKS6UD7rp1PhTwHaHG?rs=1&pid=ImgDetMain&o=7&rm=3',
       price: language === 'en' ? '$449' : '۴۴۹ دلار',
     },
     {
