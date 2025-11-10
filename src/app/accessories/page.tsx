@@ -67,7 +67,7 @@ export default function AccessoriesPage() {
     {
       title: language === 'en' ? 'Fountain Nozzles' : 'انواع نازل های فواره',
       description: language === 'en' ? 'Decorative water fountain nozzles' : 'نازل‌های تزئینی فواره آب',
-      image: 'https://i5.walmartimages.com/asr/03f04c5f-0bec-4b82-9b0c-ac269794a2d3.a95bb2baf7731b8b1d29757dd98b1fb1.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff',
+      image: 'https://tse2.mm.bing.net/th/id/OIP._uyt85ZQ6Ps9cG4PU-PZIAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3',
       price: language === 'en' ? '$249' : '۲۴۹ دلار',
     },
     {
