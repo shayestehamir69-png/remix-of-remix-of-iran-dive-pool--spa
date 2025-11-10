@@ -49,7 +49,7 @@ export default function AccessoriesPage() {
     {
       title: language === 'en' ? 'Pump Strainers' : 'انواع صافی پمپ',
       description: language === 'en' ? 'Heavy-duty pump basket strainers' : 'صافی‌های سبدی پمپ سنگین',
-      image: 'https://tse1.mm.bing.net/th/id/OIP.9Kw-8gTqC4g3XzYvKJx9BAHaE7?rs=1&pid=ImgDetMain',
+      image: 'https://th.bing.com/th/id/R.428e1761450cb97a72fcf31271d913ee?rik=SJHB9sWMPB7WYw&pid=ImgRaw&r=0',
       price: language === 'en' ? '$129' : '۱۲۹ دلار',
     },
     {
