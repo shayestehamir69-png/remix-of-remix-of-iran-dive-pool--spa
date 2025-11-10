@@ -85,7 +85,7 @@ export default function AccessoriesPage() {
     {
       title: language === 'en' ? 'Chlorine Floaters' : 'انواع شناورهای کلر',
       description: language === 'en' ? 'Automatic chlorine dispensing floaters' : 'شناورهای توزیع خودکار کلر',
-      image: 'https://tse4.mm.bing.net/th/id/OIP.fR-fknol726zeVg9n43-YgHaFy?rs=1&pid=ImgDetMain&o=7&rm=3',
+      image: 'https://tse3.mm.bing.net/th/id/OIP.orkt9ayCCmixcWzgbntf-wHaHa?rs=1&pid=ImgDetMain&o=7&rm=3',
       price: language === 'en' ? '$49' : '۴۹ دلار',
     },
     {
