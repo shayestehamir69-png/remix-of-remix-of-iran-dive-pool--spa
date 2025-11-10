@@ -91,7 +91,7 @@ export default function AccessoriesPage() {
     {
       title: language === 'en' ? 'Analog & Digital Waterproof Thermometers' : 'دماسنج واترپروف آنالوگ و دیجیتال',
       description: language === 'en' ? 'Digital and analog waterproof thermometers' : 'دماسنج‌های ضدآب دیجیتال و آنالوگ',
-      image: 'https://tse2.mm.bing.net/th/id/OIP.VQqMQjKL8dKr9p7U9N2G6gHaHa?rs=1&pid=ImgDetMain',
+      image: 'https://th.bing.com/th/id/OIP.WPXef49VXkSfNtn8rnouHwHaIB?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
       price: language === 'en' ? '$79' : '۷۹ دلار',
     },
     {
