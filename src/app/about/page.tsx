@@ -84,7 +84,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-32">
             <div className="relative h-[500px] rounded-2xl overflow-hidden group order-2 md:order-1">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=800&fit=crop"
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/Untitled-design-1762979310462.jpg?width=8000&height=8000&resize=contain"
                 alt="Mohammad Reza Bagheri Shayesteh"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
